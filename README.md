@@ -2,7 +2,18 @@
 
 ## Table of Contents
 
-………………………………….
+- [Phase 1](#phase-1)
+- [Introduction](#introduction)
+- [Discovery](#discovery)
+- [Features Identified](#features-identified)
+- [Functional Requirements](#functional-requirements)
+- [Non-Functional Requirements](#non-functional-requirements)
+- [Portfolio Scheme](#portfolio-scheme)
+- [Design](#design)
+- [Block Diagram:](#block-diagram)
+- [Component Diagram:](#component-diagram)
+- [Control-flow Diagram](#control-flow-diagram)
+- [Evaluation](#evaluation)
 
 ## Phase 1
 
@@ -22,9 +33,9 @@ ESLint is used for development – it is NOT visible to the user
 
 Diagrams were created with Draw.io
 
-## Discovery
+Live URL: https://thomasleavy.github.io/CS5709-Digital-Portfolio/
 
-EXAMPLE PORTFOLIO @ https://saaysalim.github.io/Salim-Saay/
+## Discovery
 
 The example portfolio at https://saaysalim.github.io/Salim-Saay/ was used to identify strengths and weaknesses. These are detailed in the table below:
 
@@ -112,3 +123,16 @@ In this Component Diagram, the App is the main/root component of the digital por
 The flow starts when the user accesses the digital portfolio. The default route starts the user on the Home page. The user may select options from the Navbar. The React Router examines the chosen URL and matches it to the correct route. The user then interacts with the chosen page.
 
 ![Control-flow diagram](docs/control-flow-diagram.png)
+
+## Evaluation
+
+This digital portfolio has Home, About, Education, Professional Knowledge, Pictures, Videos, Blog and a Messaging page. It also includes a Navbar on all pages, and a Hamburger for smaller viewport sizes. The pages are using consistent layouts and visuals. Messages appear immediately after being sent. The source code is in a repository on GitHub and it is live on GitHub Pages. 
+
+Upon reflection, the next steps include:
+
+- Ensuring messages remain after the page has refreshed
+- Replacing an image banner
+- Adding a more colourful and interesting UI
+- Adding more content to the Blog page
+- Adding CV link
+- Peer reviewed suggestions

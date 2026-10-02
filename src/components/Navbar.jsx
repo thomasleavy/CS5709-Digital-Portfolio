@@ -11,9 +11,15 @@ function Navbar() {
   return (
     <nav className="navbar">
       <div className="nav-container">
-        <NavLink to="/" className="logo" onClick={closeMenu}>
+        <a
+          className="logo"
+          href="https://github.com/thomasleavy/CS5709-Digital-Portfolio"
+          target="_blank"
+          rel="noopener noreferrer"
+          onClick={closeMenu}
+        >
           Thomas Leavy
-        </NavLink>
+        </a>
 
         <button
           className="menu-button"

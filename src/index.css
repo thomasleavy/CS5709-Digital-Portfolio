@@ -109,6 +109,29 @@ section {
   margin: 0.25rem;
 }
 
+.footer-social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: clamp(0.75rem, 3vw, 1.5rem);
+  margin-top: 0.85rem;
+}
+
+.footer-social a {
+  display: inline-flex;
+  color: white;
+  line-height: 0;
+}
+
+.footer-social svg {
+  width: clamp(1.6rem, 5vw, 2.2rem);
+  height: clamp(1.6rem, 5vw, 2.2rem);
+}
+
+.footer-social a:hover {
+  opacity: 0.75;
+}
+
 .home {
   min-height: 75vh;
   display: flex;
@@ -141,6 +164,16 @@ section {
   border-radius: 4px;
 }
 
+.home a.home-name {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  background: none;
+  color: inherit;
+  border-radius: 0;
+  font: inherit;
+}
+
 .page section {
   background-color: white;
   padding: 1.5rem;
@@ -160,6 +193,20 @@ section {
   margin: 0.15rem 0;
   font-weight: bold;
   color: #555;
+}
+
+.education-link {
+  display: block;
+  max-width: 32rem;
+  margin: 0 auto 1rem;
+}
+
+.education-photo {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-radius: 4px;
 }
 
 .knowledge-list {

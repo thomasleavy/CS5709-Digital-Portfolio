@@ -6,7 +6,16 @@ function Home() {
       <section>
         <p>Software Engineer</p>
 
-        <h1>Thomas Leavy</h1>
+        <h1>
+          <a
+            className="home-name"
+            href="https://github.com/thomasleavy/CS5709-Digital-Portfolio"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Thomas Leavy
+          </a>
+        </h1>
 
         <p>
           MSc Software Engineering student at the University of Limerick

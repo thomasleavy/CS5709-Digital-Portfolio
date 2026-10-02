@@ -4,19 +4,19 @@ function PicturesGallery() {
       id: 1,
       title: "The Living Bridge",
       description: "The Living Bridge at the University of Limerick.",
-      image: "/images/living-bridge.jpeg",
+      image: `${import.meta.env.BASE_URL}images/living-bridge.jpeg`,
     },
     {
       id: 2,
       title: "University of Limerick",
       description: "The University of Limerick coat of arms.",
-      image: "/images/ul-coat-of-arms.jpg",
+      image: `${import.meta.env.BASE_URL}images/ul-coat-of-arms.jpg`,
     },
     {
       id: 3,
       title: "University Campus",
       description: "A building on the University of Limerick campus.",
-      image: "/images/university-building.jpg",
+      image: `${import.meta.env.BASE_URL}images/university-building.jpg`,
     },
   ]
 
